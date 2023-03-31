@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="juan"> Crear usuario</h1>
+    <form action="">
+        <br><br>
+        <label for="">Ingrese Nombre</label>
+        <input type="text">
+        <br><br>
+        <label for="">Ingrese Apellido</label>
+        <input type="text">
+        <br><br>
+        <label for="">Ingrese Correo electronico</label>
+        <input type="text">
+        <br><br>
+        <label for="">Ingrese Nombre de usuario</label>
+        <input type="text">
+        <br><br>
+        <label for="">Ingrese una contraseña</label>
+        <input type="password">
+        <br><br>
+        <label for="">Vuelva a ingresar la contraseña</label>
+        <input type="password">
+        <br><br>
+        <br><br>
+        <input type="submit" value="Crear usuario" onclick="enviarCrearUsuario()">
+        <button onclick="cancelarRegistro()">Cancelar</button>
+        
+    </form>
+
+    <script>
+        function enviarCrearUsuario() {
+            alert('Usuario creado con exito');
+        }
+
+        function cancelarRegistro() {
+            alert('Registro cancelado');
+        }
+
+
+    </script>
+</body>
+
+</html>
